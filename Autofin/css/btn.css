@@ -1,0 +1,22 @@
+.blue-btn {
+	background: rgb(47, 81, 153);
+	background: linear-gradient(0deg, rgb(35 58 106) 0%, rgb(54 86 153) 100%) !important;
+	background: linear-gradient(0deg, rgb(42, 8, 69), rgb(0, 65, 165)) !important;
+	overflow: hidden !important;
+	border-radius: 10px;
+	    box-shadow: 1px 3px 5px 0px #00000085 !important;
+}
+.blue-btn:before {
+background: #2a0845 !important;
+}
+.red-btn {
+	background: rgb(116, 6, 6) !important;
+	background: linear-gradient(0deg, rgba(116, 6, 6, 1) 0%, rgba(181, 3, 3, 1) 100%) !important;
+	overflow: hidden !important;
+	border-radius: 10px;
+	    box-shadow: 1px 3px 5px 0px #00000085 !important;
+}
+
+.red-btn:before {
+	background: #740606 !important;
+}
