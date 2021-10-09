@@ -1146,7 +1146,54 @@
     overflow: auto;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; } }
+    background-position: center; }
+
+  .bg-wrap .slider-wrap .item-wrap {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-right: 0px;
+    min-width: inherit;
+    max-width: inherit;
+    position: relative; }
+
+  .bg-wrap .slider-wrap .small-div {
+    width: 50%;
+    left: 30px;
+    top: 70px;
+    padding: 25px 20px 25px 30px;
+    position: relative; }
+
+  .bg-wrap .slider-wrap .big-div {
+    width: 75%;
+    padding: 50px 20px 25px 50px;
+    top: -45px;
+    left: 0px;
+    top: 42px;
+    right: inherit;
+    margin-left: 18%; }
+
+  .bg-wrap .slider-wrap a.carousel-control-prev {
+    top: 340px;
+    left: 0px !important; }
+
+  .bg-wrap .slider-wrap a.carousel-control-next {
+    right: 10px;
+    top: 340px; }
+
+  .bg-wrap .slider-wrap button.close {
+    right: 35px;
+    top: 200px; }
+
+  .bg-wrap .slider-wrap .xfact {
+    font-size: 100px;
+    right: 98px;
+    top: 185px; }
+
+  .bg-wrap .slider-wrap .xfact span {
+    font-size: 150px;
+    left: 28px;
+    top: 14px; } }
 @media only screen and (max-width: 900px) {
   .bg-wrap .car-wrap .xvalue {
     left: -40px;
@@ -1170,7 +1217,44 @@
   .bg-wrap .car-wrap .car-img {
     bottom: -162px;
     width: 67%;
-    right: 15px; } }
+    right: 15px; }
+
+  .bg-wrap .slider-wrap .big-div {
+    width: 82%;
+    margin-left: 9%; }
+
+  .bg-wrap .slider-wrap .xfact {
+    font-size: 85px;
+    right: 98px;
+    top: 182px; } }
+@media only screen and (max-width: 880px) {
+  .bg-wrap .slider-wrap .xfact {
+    color: transparent;
+    background-image: url(../img/homepage/xfactors.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: 0px;
+    height: 150px;
+    top: 0px;
+    top: -25px;
+    right: 0px; }
+
+  .bg-wrap .slider-wrap .xfact span {
+    color: transparent; }
+
+  .bg-wrap .slider-wrap .carousel-inner:after {
+    right: 0px;
+    width: 60%; }
+
+  .bg-wrap .slider-wrap .big-div {
+    width: calc(100% - 80px);
+    margin-left: 30px; }
+
+  .bg-wrap .slider-wrap a.carousel-control-next {
+    right: 25px; }
+
+  .bg-wrap .slider-wrap button.close {
+    right: 25px; } }
 @media only screen and (max-width: 850px) {
   .bg-wrap .car-wrap .xvalue {
     left: -40px;
@@ -1312,7 +1396,25 @@
     font-size: 25px; } }
 @media only screen and (max-width: 730px) {
   .bg-wrap .car-wrap {
-    min-height: 415px; } }
+    min-height: 415px; }
+
+  .bg-wrap .slider-wrap .xfact {
+    background-size: 60%;
+    background-position: right; }
+
+  .bg-wrap .slider-wrap button.close {
+    right: 25px;
+    top: 230px; }
+
+  .bg-wrap .slider-wrap a.carousel-control-next {
+    right: 10px; }
+
+  .bg-wrap .slider-wrap .big-div {
+    width: calc(100% - 65px);
+    margin-left: 30px; }
+
+  .bg-wrap .slider-wrap button.close {
+    right: 5px; } }
 @media only screen and (max-width: 710px) {
   .bg-wrap .car-wrap {
     min-height: 400px; } }
@@ -1481,7 +1583,11 @@
     font-size: 18px;
     line-height: 24px;
     position: relative;
-    top: 10px; } }
+    top: 10px; }
+
+  .bg-wrap .slider-wrap .xfact {
+    background-size: 55%;
+    background-position: 142px 46px; } }
 @media only screen and (max-width: 540px) {
   .bg-wrap .car-wrap .xvalue {
     width: 70%;
@@ -1513,7 +1619,20 @@
     width: 100%; } }
 @media only screen and (max-width: 535px) {
   .bg-wrap .car-wrap .xvalue {
-    width: 55%; } }
+    width: 55%; }
+
+  .bg-wrap .slider-wrap .small-div {
+    width: 75%;
+    left: 5%;
+    top: 70px;
+    margin-left: 7%; }
+
+  .bg-wrap .slider-wrap button.close {
+    top: 223px; }
+
+  .bg-wrap .slider-wrap .big-div .para {
+    font-size: 16px;
+    line-height: 24px; } }
 @media only screen and (max-width: 481px) {
   .bg-wrap .car-wrap .xvalue {
     width: 65%; }
@@ -1778,7 +1897,28 @@
     font-size: 12px; }
 
   .bg-wrap .car-wrap .xvalue {
-    width: 66%; } }
+    width: 66%; }
+
+  .bg-wrap .slider-wrap .small-div {
+    padding: 20px 15px 20px 25px; }
+
+  .bg-wrap .slider-wrap .small-div .title {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px 0px 10px 0px; }
+
+  .bg-wrap .slider-wrap .small-div .para {
+    font-size: 16px;
+    line-height: 24px; }
+
+  .bg-wrap .slider-wrap .big-div {
+    padding: 40px 20px 15px 30px; }
+
+  .bg-wrap .slider-wrap .big-div {
+    width: calc(100% - 70px); }
+
+  .bg-wrap .slider-wrap a.carousel-control-next {
+    right: 20px; } }
 @media only screen and (max-width: 370px) {
   .bg-wrap .car-wrap .car-img {
     bottom: -48px; }

@@ -1020,7 +1020,10 @@ background-color: #363633;
   }
 
 }
-
+.bg-wrap {
+    
+    overflow-x: hidden;
+}
 @media (max-width:1610px) {
   .top-btn-wrap .btn.num-car, .top-btn-wrap .btn.fac-car {
     font-size: 18px;
@@ -1480,6 +1483,7 @@ left: 15px;
 .back-btn-wrap {
     top: 160px;
 }
+
 }
 
 @media only screen and (max-width:661px) {
