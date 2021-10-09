@@ -2091,7 +2091,7 @@ width: 75%;
         bottom: -65px;
         background-size: cover;
         background-position: -172px;
-        height: 180px;
+        height: 180px;    background-position: -390px;
     }
 
     .contact .left {
@@ -2587,10 +2587,11 @@ width: 75%;
 }
 @media only screen and (max-width:376px) {
 .contact {
-    bottom: -55px;
+    bottom: -68px;
     background-size: cover;
     background-position: -390px;
     height: 180px;
+        background-position: -390px;
 }
 .contact .left a {
    
